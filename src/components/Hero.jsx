@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 text-center py-12 md:py-16">
 
         {/* Profile Photo */}
-        <div className="relative w-52 h-52 md:w-64 md:h-64 mx-auto mb-6">
+        <div className="relative w-52 h-52 md:w-64 md:h-64 mx-auto mb-5">
           <div className="w-full h-full rounded-full overflow-hidden ring-4 ring-rust-500 shadow-2xl">
             <img
               src="/profile-photo.jpeg"
@@ -84,10 +84,15 @@ const Hero = () => {
 
         {/* Tech strip */}
         <div className="mt-6 mb-8 relative">
-          <div className="overflow-hidden py-5">
-            <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white to-transparent z-10" />
-            <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-white to-transparent z-10" />
-
+          <div
+            className="overflow-hidden py-4"
+            style={{
+              WebkitMaskImage:
+                'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+              maskImage:
+                'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+            }}
+          >
             <div className="flex gap-6 animate-scroll">
               {allTechnologies.map((tech, index) => (
                 <div key={index} className="flex-shrink-0">
