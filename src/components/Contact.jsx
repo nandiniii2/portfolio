@@ -109,9 +109,6 @@ const Contact = () => {
             {/* Resume Download */}
             <div className="p-6 bg-gradient-to-r from-rust-600 to-rust-700 rounded-xl text-white">
               <h4 className="text-xl font-bold mb-3">Download My Resume</h4>
-              <p className="text-sm mb-4 opacity-90">
-                Available in two versions tailored for different roles
-              </p>
               <div className="flex gap-3">
                 <button className="flex-1 px-4 py-2 bg-white text-rust-600 rounded-lg font-medium hover:bg-gray-100 transition-colors flex items-center justify-center gap-2">
                   <a href="/Nandini_Patel_DS.pdf"
