@@ -85,6 +85,30 @@ const Hero = () => {
           </div>
         </div>
 
+        {/* Text Content */}
+        <div className="mb-8 mt-12">
+          <p className="text-rust-600 text-sm md:text-base mb-2 font-semibold uppercase tracking-wider">
+            Software Engineer | Data & ML
+          </p>
+          <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-3">
+            Nandini Patel
+          </h1>
+          <div className="flex items-center justify-center gap-2 text-slate-600 text-base">
+            <span className="w-2 h-2 bg-rust-500 rounded-full animate-pulse" />
+            <span>Open to full-time roles</span>
+          </div>
+        </div>
+
+        {/* Bio */}
+        <p className="text-slate-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+          Software engineer working at the intersection of data, systems and scale.
+        </p>
+        <p className="text-slate-500 text-sm mt-1">
+          I care about clarity, performance, and systems that hold up in production.
+          <br/>
+        </p>
+        <br/>
+
         {/* Tech Stack Icons - Infinite Scrolling */}
         <div className="mb-12 relative">
           <div className="overflow-hidden py-8">
@@ -120,29 +144,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Text Content */}
-        <div className="mb-8 mt-12">
-          <p className="text-rust-600 text-sm md:text-base mb-2 font-semibold uppercase tracking-wider">
-            Software Engineer | Data & ML
-          </p>
-          <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-3">
-            Nandini Patel
-          </h1>
-          <div className="flex items-center justify-center gap-2 text-slate-600 text-base">
-            <span className="w-2 h-2 bg-rust-500 rounded-full animate-pulse" />
-            <span>Open to full-time roles</span>
-          </div>
-        </div>
-
-        {/* Bio */}
-        <p className="text-slate-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-          Software engineer working at the intersection of data, systems and scale.
-        </p>
-        <p className="text-slate-500 text-sm mt-1">
-          I care about clarity, performance, and systems that hold up in production.
-          <br/>
-        </p>
-        <br/>
         {/* CTA Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           
