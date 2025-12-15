@@ -20,7 +20,7 @@ const Skills = () => {
       id: 'databases',
       name: 'Databases',
       icon: <Database size={22} />,
-      skills: ['PostgreSQL', 'MySQL', 'SQL Server', 'Snowflake', 'MongoDB', 'Oracle']
+      skills: ['PostgreSQL', 'MySQL', 'SQL Server', 'Snowflake', 'MongoDB', 'Cassandra', 'Neo4j', 'Oracle']
     },
     {
       id: 'tools',
