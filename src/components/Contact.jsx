@@ -53,7 +53,7 @@ const Contact = () => {
             {/* Contact Details */}
             <div className="space-y-4">
               <a
-                href="mailto:nandinipatel0204@gmail.com@iu.edu"
+                href="mailto:nandinipatel0204@gmail.com"
                 className="flex items-center gap-4 p-4 card hover:scale-105 transition-all duration-300"
               >
                 <div className="p-3 bg-rust-100 dark:bg-rust-900 text-rust-600 dark:text-rust-400 rounded-lg">
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">nantpate@iu.edu</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">nandinipatel0204@gmail.com</div>
                 </div>
               </a>
 
