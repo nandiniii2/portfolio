@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Create mailto link with form data
-    const mailtoLink = `mailto:nantpate@iu.edu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:nandinipatel0204@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
     )}`;
     window.location.href = mailtoLink;
@@ -53,7 +53,7 @@ const Contact = () => {
             {/* Contact Details */}
             <div className="space-y-4">
               <a
-                href="mailto:nantpate@iu.edu"
+                href="mailto:nandinipatel0204@gmail.com@iu.edu"
                 className="flex items-center gap-4 p-4 card hover:scale-105 transition-all duration-300"
               >
                 <div className="p-3 bg-rust-100 dark:bg-rust-900 text-rust-600 dark:text-rust-400 rounded-lg">
