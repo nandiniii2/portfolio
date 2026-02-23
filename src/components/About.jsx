@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: <GraduationCap size={24} />,
       title: "Strong Academic Foundation",
-      description: "MS in CS (3.78 GPA) from IU, BE in CS (9.37 GPA) from GTU"
+      description: "MS in CS (3.86 GPA) from IU, BE in CS (9.37 GPA) from GTU"
     },
     {
       icon: <Award size={24} />,
@@ -81,7 +81,7 @@ const About = () => {
           </p>
           <div className="flex justify-center gap-8 mt-6 flex-wrap">
             <div>
-              <div className="text-3xl font-bold">3.78</div>
+              <div className="text-3xl font-bold">3.86</div>
               <div className="text-sm opacity-90">MS GPA</div>
             </div>
             <div>
